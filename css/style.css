@@ -1,0 +1,23 @@
+header{
+    background-color: chocolate;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+header>img{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    align-self: start;
+}
+
+header>nav{
+    justify-self: end;
+    align-self: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
